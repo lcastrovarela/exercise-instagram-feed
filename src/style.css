@@ -1,1 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: lightgray;
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+header {
+  background: white;
+}
+.header h1 {
+  margin: 0;
+}
+div.post {
+  background: white;
+  margin-top: 20px;
+}
+div.post img {
+  width: 100%;
+}
+div.post .post-header div:first-child {
+  display: inline-block;
+  width: 80%;
+}
+div.post .post-header div:last-child {
+  display: inline-block;
+  width: 19%;
+  padding-right: 20px;
+  text-align: right;
+  color: gray;
+}
+div.post h2 {
+  padding: 5px;
+  margin: 0;
+}
+div.post p {
+  padding: 5px;
+  margin: 0;
+}
+div.container {
+  width: 690px;
+  margin: auto;
+}
